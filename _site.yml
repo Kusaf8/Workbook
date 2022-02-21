@@ -1,11 +1,11 @@
-name: "MyLabJournal"
+name: "Kevin's Solution"
 navbar:
-  title: "MyLabJournal"
+  title: "Solutions"
   left:
-    - text: "Home"
+    - text: "Microsoft Excel"
       href: index.html
-    - text: "Journal"
-      href: Journal.html
-    - text: "Links"
-      href: Links.html
+    - text: "Microsoft Access"
+      href: index.html
+    - text: "R Studio"
+      href: index.html
 output_dir: "docs"
