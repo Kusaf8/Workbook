@@ -17,23 +17,60 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# **My Lab Journal**
 
-Kevin Roberts
-Senior Manager, Business Operations
-Berlin
+# **Introduction**
 
-## Summary
+*Kevin Roberts*  
+*Senior Manager, Business Operations*  
+*Berlin, Germany*  
 
-I am a seasoned professional with a diverse work portfolio. Experiencein aviation operations, intelligence operations at national levelagencies, and business operations along with international relationsas a U.S. Diplomat in Southwest Asia and Europe. A flexible,adaptable employee that is quick to learn any type of new software.You'll make the employer look good. You're so capable that you, too,can be marketed. Self-motivated, personnel-oriented, and decisiveleader; adept at revitalizing operations, leading organization-wide campaigns, and capturing untapped potential in personnel.Accomplished and proven ability to communicate with business andtechnical audiences at all levels, including influencing senior leadersand decision-makers with efficient business solutions. Successfulhistory of proactively recognizing operational inefficiencies, thenleading teams to create and instill data-centric solutions to improveprocesses that increase production.
+### **Mission Statement:** 
+*Turning ideas into analytic realities.* 
+
+### **Life Motto:**
+*We all change when you think about. We are all different people all throughout our lives. That’s alright, in fact that’s good. You have to keep moving so long as you remember all the people who you used to be.* 
 
 </div>
-<div class="col-sm-6">
 
-### [LinkedIn Profile](www.linkedin.com/in/kevin-r-a4789a77)
-![](images/QRcode.jpg)
+![](images/ProfilePhoto.jpg){width=40%}  
 
+
+<div class="col-sm-12">
+
+### **Summary**
+
+I am a seasoned professional with a diverse work portfolio. Experience in aviation operations, intelligence operations at national level agencies, and business operations along with international relations as a U.S. Diplomat in Southwest Asia and Europe.  
+
+A flexible, adaptable employee that is quick to learn any type of new software. You’ll make the employer look good. You're so capable that you, too, can be marketed. Self-motivated, personnel-oriented, and decisive leader; adept at revitalizing operations, leading organization-wide campaigns, and capturing untapped potential in personnel. Accomplished and proven ability to communicate with business and technical audiences at all levels, including influencing senior leaders and decision-makers with efficient business solutions. 
+
+Successful history of proactively recognizing operational inefficiencies, then leading teams to create and instill data-centric solutions to improve processes that increase production.  
+
+### **Education**  
+
+#### Boston University  
+  + Graduate Certificate, Data Analytics (2020 - 2021)
+
+#### International Center for Language Studies  
+  + German Language (2019 - 2020)
+
+#### Park University  
+  + Bachelor of Applied Science, Computer/Information Technology (2005 - 2019)  
+
+#### Community College of the Air Force  
+  + Associate of Arts, Human Resources Management and Services (2018 - 2019)  
+
+#### Community College of the Air Force  
+  + Associate of Science, Intelligence Studies and Technologies (2011 - 2015)  
+
+#### Community College of the Air Force  
+  + Associate of Science, Aerospace Equipment Technologies (2002 – 2005)  
+
+#### [Full Resume](docs/Resume-CAO 2.21.2022.pdf) 
+
+#### [LinkedIn Profile](www.linkedin.com/in/kevin-r-a4789a77)
+![](images/QRcode.jpg){width=10%}
 <a href = "www.linkedin.com/in/kevin-r-a4789a77">
-![](images/ProfilePhoto.jpg)
+
+
 </a>
 </div>
