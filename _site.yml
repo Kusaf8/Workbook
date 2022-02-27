@@ -1,11 +1,27 @@
 name: "Kevin's Solution"
 navbar:
+  colortheme: "dolphin"
   title: "Solutions"
   left:
+    - text: "More About Me"
+      href: index.html
+    - text: "Tradecraft"
+      href: tradecraft.html
     - text: "Microsoft Excel"
-      href: index.html
+      menu:
+        - text: "Stocks Project"
+          href: excel.html
     - text: "Microsoft Access"
-      href: index.html
+      href: access.html
     - text: "R Studio"
-      href: index.html
+      menu:
+        - text: "Data Minning RSS Feeds"
+          href: R.html
+        - text: "Stocks R Project"
+        - href: "College Basketball Machine Learning"
+  right:
+    - icon: fa-linkedin
+      href: http://www.linkedin.com/in/kevin-r-a4789a77
+    - icon: fa-email
+      href: kevin.a.roberts8@gmail.com
 output_dir: "docs"

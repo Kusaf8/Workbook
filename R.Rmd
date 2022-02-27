@@ -1,0 +1,60 @@
+---
+title: "R Software Work"
+output: html_document
+---
+  
+  <style type="text/css">
+  .title {
+    display: none;
+  }
+
+#getting-started img {
+margin-right: 10px;
+}
+
+</style>
+  
+  <div class="row" style="padding-top: 30px;">
+  
+  
+  ```{r}
+library(shiny)
+library(ggplot2)
+library(tidyRSS)
+library(tibble)
+library(tidytext)
+library(dplyr)
+
+feeds = c("http://feeds2.feedburner.com/InvestingRss",
+          "https://www.cnbc.com/id/15839069/device/rss/rss.html",
+          "http://feeds.marketwatch.com/marketwatch/topstories/",
+          "http://feeds.marketwatch.com/marketwatch/StockstoWatch/",
+          "http://feeds.marketwatch.com/marketwatch/marketpulse/")
+
+Df = NULL
+for (feed in feeds) {
+  News.feed = unique(select(tidyfeed(feed, parse_dates = TRUE), 
+                            "feed_title","item_description","item_pub_date","item_link"))
+  Df = rbind(News.feed, Df)
+}
+
+
+ui = fluidPage(
+  titlePanel(h4("Financial News of The Day")), 
+  mainPanel(DT::dataTableOutput("table")
+  ))
+
+server = function(input, output) {
+  output$table = DT::renderDataTable({
+    Df},
+    options = list(autoWidth = TRUE, 
+                   columnDefs = list(list(width = '200px', 
+                                          targets = "All",
+                                          fontSize = '6px')),
+                   pageLength = 25,
+                   lengthMenu = c(10, 20, 25, 50, 100)
+    ))}
+
+shinyApp(ui, server)
+
+```

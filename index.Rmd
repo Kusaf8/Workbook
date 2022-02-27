@@ -8,7 +8,7 @@ output: html_document
   display: none;
 }
 
-#getting-started img {
+getting-started img {
   margin-right: 10px;
 }
 
@@ -17,41 +17,48 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
+<center>![](images/ProfilePhoto.jpg){width=70%}</center>
 
-# **Introduction**
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
-*Kevin Roberts*  
-*Senior Manager, Business Operations*  
-*Berlin, Germany*  
-
-### **Mission Statement:** 
-*Turning ideas into analytic realities.* 
-
-### **Life Motto:**
-*We all change when you think about. We are all different people all throughout our lives. That’s alright, in fact that’s good. You have to keep moving so long as you remember all the people who you used to be.* 
+<center> **Prominent Words of Past Performances**</center>
+<p>&nbsp;</p>
+<center>![](images/WordCloud.PNG){width=90%}</center>
+<center>[Source Code](WordCloud.html)</center>
+<p>&nbsp;</p>
+*I created the above word cloud from my performance evaluations that span the past 10 years. This cloud represents a graphical representation of word frequency that give greater prominence to words that appeared more frequently in my evaluations.*
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<center>![](images/Experience Graphic.PNG){width=90%}</center>
 
 </div>
+<div class="col-sm-6">
 
-![](images/ProfilePhoto.jpg){width=40%}  
+## **Introduction**
 
+##### *Kevin Roberts*  
+##### *Senior Manager, Business Operations*  
+##### *Berlin, Germany*  
 
-<div class="col-sm-12">
+### **Mission Statement:** 
+*Delivering Data Centric Solutions to Business Needs* 
+
+### **Quote**
+*We all change when you think about. We are all different people all throughout our lives. That’s alright, in fact that’s good. You have to keep moving so long as you remember all the people who you used to be. - Dr. Who* 
 
 ### **Summary**
 
 I am a seasoned professional with a diverse work portfolio. Experience in aviation operations, intelligence operations at national level agencies, and business operations along with international relations as a U.S. Diplomat in Southwest Asia and Europe.  
 
-A flexible, adaptable employee that is quick to learn any type of new software. You’ll make the employer look good. You're so capable that you, too, can be marketed. Self-motivated, personnel-oriented, and decisive leader; adept at revitalizing operations, leading organization-wide campaigns, and capturing untapped potential in personnel. Accomplished and proven ability to communicate with business and technical audiences at all levels, including influencing senior leaders and decision-makers with efficient business solutions. 
+A flexible, adaptable employee that is quick to learn any type of new software.  I can make the employer look good. Self-motivated, personnel-oriented, and decisive **leader**; adept at **revitalizing** operations, leading organization-wide campaigns, and capturing untapped potential in personnel. Accomplished and proven ability to communicate with business and technical audiences at all levels, including influencing senior leaders and decision-makers with efficient business solutions. 
 
-Successful history of proactively recognizing operational inefficiencies, then leading teams to create and instill data-centric solutions to improve processes that increase production.  
+Successful history of proactively recognizing operational inefficiencies, then leading teams to **create** and **instill** data-centric solutions to improve processes that increase production.  
 
 ### **Education**  
 
 #### Boston University  
   + Graduate Certificate, Data Analytics (2020 - 2021)
-
-#### International Center for Language Studies  
-  + German Language (2019 - 2020)
 
 #### Park University  
   + Bachelor of Applied Science, Computer/Information Technology (2005 - 2019)  
@@ -63,14 +70,33 @@ Successful history of proactively recognizing operational inefficiencies, then l
   + Associate of Science, Intelligence Studies and Technologies (2011 - 2015)  
 
 #### Community College of the Air Force  
-  + Associate of Science, Aerospace Equipment Technologies (2002 – 2005)  
+  + Associate of Science, Aerospace Equipment Technologies (2002 – 2005)
 
-#### [Full Resume](docs/Resume-CAO 2.21.2022.pdf) 
+#### International Center for Language Studies  
+  + German Language (2019 - 2020)
+  
+#### Defense Intelligence Agency
+  + Joint Military Attache School (2018)
+  
+#### U.S. Air Force Leadership Studies
+  + Senior Leadership Academy (2015)
+  + Leadership or Management Training (2006)
+  
 
-#### [LinkedIn Profile](www.linkedin.com/in/kevin-r-a4789a77)
-![](images/QRcode.jpg){width=10%}
-<a href = "www.linkedin.com/in/kevin-r-a4789a77">
-
-
-</a>
+  
 </div>
+<div class="col-sm-12">
+
+&nbsp;
+<hr />
+<p style="text-align: center;">A work by <a href="https://github.com/Kusaf8/">Kevin Roberts</a></p>
+<p style="text-align: center;"><span style="color: #808080;"><em>kevin.a.roberts8@gmail.com</em></span></p>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<p style="text-align: center;">
+    <a href="http://www.linkedin.com/in/kevin-r-a4789a77" class="fa fa-linkedin"></a>
+    <a href="https://github.com/Kusaf8/" class="fa fa-github"></a>
+</p>
+
+&nbsp;
