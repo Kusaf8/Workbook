@@ -251,6 +251,33 @@ $(document).ready(function () {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    R Studio
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="R.html">Data Minning RSS Feeds</a>
+    </li>
+    <li>
+      <a href="NCAA_Project_ref.html">NCAA Final Four Project</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Python
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="R.html">Banking Fraud Study</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     Microsoft Excel
      
     <span class="caret"></span>
@@ -264,22 +291,6 @@ $(document).ready(function () {
 <li>
   <a href="access.html">Microsoft Access</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    R Studio
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="R.html">Data Minning RSS Feeds</a>
-    </li>
-    <li class="dropdown-header">Stocks R Project</li>
-    <li>
-      <a href="College Basketball Machine Learning"></a>
-    </li>
-  </ul>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -290,7 +301,7 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="kevin.a.roberts8@gmail.com">
-    <span class="fa fa-email"></span>
+    <span class="fa fa-mail"></span>
      
   </a>
 </li>
@@ -311,17 +322,14 @@ $(document).ready(function () {
 <pre><code>## Warning: package &#39;wordcloud&#39; was built under R version 3.6.3</code></pre>
 <pre><code>## Loading required package: RColorBrewer</code></pre>
 <pre class="r"><code>library(RColorBrewer)
-library(tm)</code></pre>
-<pre><code>## Warning: package &#39;tm&#39; was built under R version 3.6.3</code></pre>
-<pre><code>## Loading required package: NLP</code></pre>
-<pre><code>## Warning: package &#39;NLP&#39; was built under R version 3.6.3</code></pre>
+library(tm)
+library(textreadr)</code></pre>
 <pre><code>## 
-## Attaching package: &#39;NLP&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
+## Attaching package: &#39;textreadr&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:rvest&#39;:
 ## 
-##     annotate</code></pre>
-<pre class="r"><code>library(textreadr)
-library(tibble)
+##     read_html</code></pre>
+<pre class="r"><code>library(tibble)
 library(dplyr)
 
 

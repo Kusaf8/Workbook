@@ -22,11 +22,16 @@ margin-right: 10px;
 </style>
   
   <div class="row" style="padding-top: 30px;">
-  <div class="col-sm-6">
+  <div class="col-sm-12">
   
 ## **MICROSOFT ACCESS**
 
 #### **Identified business need and developed database solution with a user-friendly tool to inform senior managers on department training compliance which increased compliance by 60%**
+
+<p>&nbsp;</p>
+
+</div>
+<div class="col-md-6">
 
 Between 2015 and 2017, as a department training manager, one of my responsibilities was to oversee the training compliance of all 250 employees. My company hosted all trainings in an online portal which allowed each employee to take the training and see the history of completed courses. The online portal did not however provide any information as to when the employee was required to take the training again and it did not allow managers to see which employees complied with all required training. 
 
@@ -38,10 +43,11 @@ By informing senior managers to further enforce this compliance and enabling emp
 
 </div>
 <div class="col-sm-6">
-
+<p>&nbsp;</p>
 <center>![](images/AccessTags.jpg){width=90%}</center> 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<center>![](images/AccessScreens.jpg){width=100%}</center>  
+<p>&nbsp;</p>
+<center>![](images/AccessScreens.jpg){width=95%}</center>  
 
 

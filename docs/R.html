@@ -251,6 +251,33 @@ $(document).ready(function () {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    R Studio
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="R.html">Data Minning RSS Feeds</a>
+    </li>
+    <li>
+      <a href="NCAA_Project_ref.html">NCAA Final Four Project</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Python
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="R.html">Banking Fraud Study</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     Microsoft Excel
      
     <span class="caret"></span>
@@ -264,22 +291,6 @@ $(document).ready(function () {
 <li>
   <a href="access.html">Microsoft Access</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    R Studio
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="R.html">Data Minning RSS Feeds</a>
-    </li>
-    <li class="dropdown-header">Stocks R Project</li>
-    <li>
-      <a href="College Basketball Machine Learning"></a>
-    </li>
-  </ul>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -290,7 +301,7 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="kevin.a.roberts8@gmail.com">
-    <span class="fa fa-email"></span>
+    <span class="fa fa-mail"></span>
      
   </a>
 </li>
@@ -324,25 +335,14 @@ margin-right: 10px;
 
 <pre class="r"><code>library(shiny)</code></pre>
 <pre><code>## Warning: package &#39;shiny&#39; was built under R version 3.6.3</code></pre>
-<pre class="r"><code>library(ggplot2)</code></pre>
-<pre><code>## Warning in (function (kind = NULL, normal.kind = NULL, sample.kind = NULL) :
-## non-uniform &#39;Rounding&#39; sampler used</code></pre>
-<pre class="r"><code>library(tidyRSS)
-library(tibble)</code></pre>
-<pre><code>## Warning: package &#39;tibble&#39; was built under R version 3.6.3</code></pre>
-<pre class="r"><code>library(tidytext)</code></pre>
+<pre class="r"><code>library(ggplot2)
+library(tidyRSS)
+library(tibble)
+library(tidytext)</code></pre>
 <pre><code>## Warning: package &#39;tidytext&#39; was built under R version 3.6.3</code></pre>
-<pre class="r"><code>library(dplyr)</code></pre>
-<pre><code>## Warning: package &#39;dplyr&#39; was built under R version 3.6.3</code></pre>
-<pre><code>## 
-## Attaching package: &#39;dplyr&#39;</code></pre>
-<pre><code>## The following objects are masked from &#39;package:stats&#39;:
-## 
-##     filter, lag</code></pre>
-<pre><code>## The following objects are masked from &#39;package:base&#39;:
-## 
-##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>feeds = c(&quot;http://feeds2.feedburner.com/InvestingRss&quot;,
+<pre class="r"><code>library(dplyr)
+
+feeds = c(&quot;http://feeds2.feedburner.com/InvestingRss&quot;,
         &quot;https://www.cnbc.com/id/15839069/device/rss/rss.html&quot;,
         &quot;http://feeds.marketwatch.com/marketwatch/topstories/&quot;,
         &quot;http://feeds.marketwatch.com/marketwatch/StockstoWatch/&quot;,
@@ -354,8 +354,9 @@ News.feed = unique(select(tidyfeed(feed, parse_dates = TRUE),
                           &quot;feed_title&quot;,&quot;item_description&quot;,&quot;item_pub_date&quot;,&quot;item_link&quot;))
 Df = rbind(News.feed, Df)
 }</code></pre>
-<pre><code>## GET request successful. Parsing...</code></pre>
 <pre><code>## GET request successful. Parsing...
+## 
+## GET request successful. Parsing...
 ## 
 ## GET request successful. Parsing...
 ## 

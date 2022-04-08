@@ -15,7 +15,7 @@ getting-started img {
 </style>
 
 <div class="row" style="padding-top: 30px;">
-<div class="col-sm-6">
+<div class="col-md-6">
 
 <center>![](images/ProfilePhoto.jpg){width=70%}</center>
 
@@ -26,23 +26,26 @@ getting-started img {
 <p>&nbsp;</p>
 <center>![](images/WordCloud.PNG){width=90%}</center>
 <center>[Source Code](WordCloud.html)</center>
+
 <p>&nbsp;</p>
 *I created the above word cloud from my performance evaluations that span the past 10 years. This cloud represents a graphical representation of word frequency that give greater prominence to words that appeared more frequently in my evaluations.*
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<center>![](images/Experience Graphic.PNG){width=90%}</center>
+<center>![](images/ExperienceGraphic.PNG){width=80%}</center>
 
 </div>
-<div class="col-sm-6">
+<div class="col-md-6">
 
 ## **Introduction**
+
+Welcome to my site where I showcase most of my analytical works from my professional, academic, as well as my personal life as a hobby.  Feel free to explore and I am always happy to chat about analytical tradecraft.
 
 ##### *Kevin Roberts*  
 ##### *Senior Manager, Business Operations*  
 ##### *Berlin, Germany*  
 
 ### **Mission Statement:** 
-*Delivering Data Centric Solutions to Business Needs* 
+*Delivering Data Centric Solutions to Your Business Needs* 
 
 ### **Quote**
 *We all change when you think about. We are all different people all throughout our lives. That’s alright, in fact that’s good. You have to keep moving so long as you remember all the people who you used to be. - Dr. Who* 
@@ -85,7 +88,7 @@ Successful history of proactively recognizing operational inefficiencies, then l
 
   
 </div>
-<div class="col-sm-12">
+<div class="col-md-12">
 
 &nbsp;
 <hr />
