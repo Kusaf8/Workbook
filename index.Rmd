@@ -31,7 +31,7 @@ getting-started img {
 *I created the above word cloud from my performance evaluations that span the past 10 years. This cloud represents a graphical representation of word frequency that give greater prominence to words that appeared more frequently in my evaluations.*
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<center>![](images/ExperienceGraphic.PNG){width=80%}</center>
+<center>![](images/ExperienceGraphic.png){width=80%}</center>
 
 </div>
 <div class="col-md-6">

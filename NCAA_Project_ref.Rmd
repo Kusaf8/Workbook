@@ -29,17 +29,17 @@ getting-started img {
 <p>&nbsp;</p>
 </div>
 <div class="col-md-4">
-<center>![](images/Source Code.jpg){width=80%}</center>
+<center>![](images/Source Code.jpg){width=100%}</center>
 <p>&nbsp;</p>
 <center>[Source Code](NCAA_Project.html)</center>
 <p>&nbsp;</p>
 </div>
 <div class="col-md-4">
-<center>![](images/BubbleChart.jpg){width=80%}</center>
+<center>![](images/BubbleChart.jpg){width=100%}</center>
 <p>&nbsp;</p>
 </div>
 <div class="col-md-4">
-<center>![](images/R logo.png){width=60%}</center>
+<center>![](images/Tags_NCAA_Project.jpg){width=80%}</center>
 <p>&nbsp;</p>
 </div>
 <div class="col-md-12">

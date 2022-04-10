@@ -4,19 +4,19 @@ navbar:
   title: "Solutions"
   left:
     - text: "More About Me"
-      href: index.html
+      href: More_About_Me.html
     - text: "Tradecraft"
-      href: tradecraft.html
+      href: Under_Construction.html
     - text: "R Studio"
       menu:
         - text: "Data Minning RSS Feeds"
-          href: R.html
+          href: Under_Construction.html
         - text: "NCAA Final Four Project"
           href: NCAA_Project_ref.html
     - text: "Python"
       menu:
         - text: "Banking Fraud Study"
-          href: R.html
+          href: Under_Construction.html
     - text: "Microsoft Excel"
       menu:
         - text: "Stocks Project"

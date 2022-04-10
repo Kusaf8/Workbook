@@ -44,9 +44,7 @@ By informing senior managers to further enforce this compliance and enabling emp
 </div>
 <div class="col-sm-6">
 <p>&nbsp;</p>
-<center>![](images/AccessTags.jpg){width=90%}</center> 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<center>![](images/Tags_Microsoft_Access.jpg){width=60%}</center> 
 <p>&nbsp;</p>
 <center>![](images/AccessScreens.jpg){width=95%}</center>  
 
