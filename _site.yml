@@ -5,14 +5,16 @@ navbar:
   left:
     - text: "More About Me"
       href: More_About_Me.html
-    - text: "Tradecraft"
-      href: Under_Construction.html
+    - text: "Professional Journey"
+      href: https://earth.google.com/earth/d/1JK8NlfHJFnThFh8iUNs_Nlto6U5rutTE?usp=sharing
     - text: "R Studio"
       menu:
-        - text: "Data Minning RSS Feeds"
-          href: Under_Construction.html
+        - text: "Aircraft Flight Study"
+          href: Flight_Study_ref.html
         - text: "NCAA Final Four Project"
           href: NCAA_Project_ref.html
+        - text: "Data Minning RSS Feeds"
+          href: Under_Construction.html
     - text: "Python"
       menu:
         - text: "Banking Fraud Study"
@@ -20,9 +22,11 @@ navbar:
     - text: "Microsoft Excel"
       menu:
         - text: "Stocks Project"
-          href: excel.html
+          href: Stocks_Project_Tool.html
     - text: "Microsoft Access"
-      href: access.html
+      menu:
+        - text: "Training Database Tool"
+          href: access.html
   right:
     - icon: fa-linkedin
       href: http://www.linkedin.com/in/kevin-r-a4789a77

@@ -1,0 +1,86 @@
+---
+title: "Stocks Project Tool"
+output: 
+html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+  
+  <style type="text/css">
+  .title {
+    display: none;
+  }
+
+getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+  
+<div class="row" style="padding-top: 30px;">
+<div class="col-md-12">
+  
+## **Excel Based Stock Tracker**
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+<div class="col-md-4">
+<center>![](images/Source Code.jpg){width=100%}</center>
+<p>&nbsp;</p>
+<center>[Source Code](Flight_Study.html)</center>
+<p>&nbsp;</p>
+</div>
+<div class="col-md-12">
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<center>![](images/Stock Excel Slide.jpg){width=95%}</center>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+##### **I **
+<p>&nbsp;</p>
+##### **Purpose**
+  + The . 
+
+##### **Abstract**
+  + All 
+
+##### **Origin of Data**
+  +  The data 
+
+</div>
+<div class="col-md-6">
+
+##### **Preparation of Data**
+  + Little 
+
+##### **Analysis of Data**
+  + First, 
+
+  + Determining 
+ 
+  + The  
+
+##### **Conclusion**
+  + My  
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</div>
+<div class="col-md-6">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
