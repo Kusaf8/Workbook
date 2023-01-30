@@ -108,3 +108,11 @@ Successful history of proactively recognizing operational inefficiencies, then l
 </p>
 
 &nbsp;
+
+```{r, echo = FALSE}
+count <- as.numeric(readLines("counter.txt"))
+count <- count + 1
+write(count, "counter.txt")
+
+```{r}
+
