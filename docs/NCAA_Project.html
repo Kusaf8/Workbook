@@ -244,10 +244,10 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="More_About_Me.html">More About Me</a>
+  <a href="Military_Biography.html">Military Biography</a>
 </li>
 <li>
-  <a href="https://earth.google.com/earth/d/1JK8NlfHJFnThFh8iUNs_Nlto6U5rutTE?usp=sharing">Professional Journey</a>
+  <a href="More_About_Me.html">More About Me</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -572,7 +572,7 @@ for (i in 1:ncol(Coer.data)){
 ## L.3 = 0.2421931 
 ## Tm. = 0.6507356 
 ## Opp. = 0.5138268 
-## Pace = 0.2309564 
+## Pace = 0.2372068 
 ## ORtg = 0.4296985 
 ## FTr = 0.2718334 
 ## 3PAr = 0.2616898 
@@ -816,10 +816,8 @@ for (i in 1:28){
      main = &quot;Maximum Percentage Accuracy Graph&quot;)</code></pre>
 <p><img src="NCAA_Project_files/figure-html/unnamed-chunk-1-3.png" width="672" /></p>
 <pre class="r"><code>set.seed(20210427)
-knn.pred = knn(train = a, test = b, cl = c, k = 24, prob = T)</code></pre>
-<pre><code>## Warning in if (prob) attr(res, &quot;prob&quot;) &lt;- Z$pr: the condition has length &gt; 1 and
-## only the first element will be used</code></pre>
-<pre class="r"><code>table(knn.pred, test.dataset.label)</code></pre>
+knn.pred = knn(train = a, test = b, cl = c, k = 24, prob = T)
+table(knn.pred, test.dataset.label)</code></pre>
 <pre><code>##         test.dataset.label
 ## knn.pred   0   1
 ##        0 814 105

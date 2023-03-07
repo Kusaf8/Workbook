@@ -3,10 +3,10 @@ navbar:
   colortheme: "dolphin"
   title: "Solutions"
   left:
+    - text: "Military Biography"
+      href: Military_Biography.html
     - text: "More About Me"
       href: More_About_Me.html
-    - text: "Professional Journey"
-      href: https://earth.google.com/earth/d/1JK8NlfHJFnThFh8iUNs_Nlto6U5rutTE?usp=sharing
     - text: "R Studio"
       menu:
         - text: "Aircraft Flight Study"

@@ -15,3 +15,16 @@ margin-right: 10px;
 </style>
   
   <div class="row" style="padding-top: 30px;">
+  
+<video width='240' controls loop autoplay>
+<source src='/images/Education.mp4' type='video/mp4'>
+
+Your browser does not support the video tag.
+</video>
+  
+  
+  
+  
+  
+  
+  

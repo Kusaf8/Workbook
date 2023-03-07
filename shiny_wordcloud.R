@@ -19,6 +19,7 @@ ui = fluidPage(
     
         mainPanel(
       tabsetPanel(type = "tabs",
+                  tabPanel("Summary", verbatimTextOutput("summary")),
                   tabPanel("Wordcloud", plotOutput("wordcloud")),
                   tabPanel("Word Frequency Table", dataTableOutput("frequency"))
       )
@@ -41,9 +42,6 @@ server = function(input, output) {
     textCorpus = tm_map(textCorpus, stripWhitespace)
     return(textCorpus)
   })
-  set.seed(1234) # for reproducibility 
-  png("wordcloud_packages.png", width=12,height=10, units='in', res=300)
-  dev.off()
   
   output$wordcloud = renderPlot({
     if (is.null(data())) return()

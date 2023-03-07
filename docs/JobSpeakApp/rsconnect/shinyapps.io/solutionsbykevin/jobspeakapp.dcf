@@ -5,9 +5,9 @@ account: solutionsbykevin
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8239910
-bundleId: 6817227
+bundleId: 6918716
 url: https://solutionsbykevin.shinyapps.io/jobspeakapp/
-when: 1675729354.30798
-lastSyncTime: 1675729354.30798
+when: 1678055076.25198
+lastSyncTime: 1678055076.25198
 asMultiple: FALSE
 asStatic: FALSE
