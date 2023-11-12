@@ -4,8 +4,9 @@ shinyUI(fluidPage(
   titlePanel("Russian Cyrillic Text Processing App"),
   sidebarLayout(
     sidebarPanel(
-      fileInput("file", "Choose a text file"),
+      textAreaInput("textInput", "Enter Text", "", width = "400px", height = "400px"),
       actionButton("processButton", "Process Text"),
+      downloadButton("downloadData", "Download"),
     ),
     mainPanel(
       tabsetPanel(
