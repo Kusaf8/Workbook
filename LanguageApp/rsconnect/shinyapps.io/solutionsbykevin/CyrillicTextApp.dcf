@@ -1,0 +1,12 @@
+name: CyrillicTextApp
+title: CyrillicTextApp
+username: solutionsbykevin
+account: solutionsbykevin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10494689
+bundleId: 7916119
+url: https://solutionsbykevin.shinyapps.io/CyrillicTextApp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

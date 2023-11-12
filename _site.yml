@@ -15,6 +15,9 @@ navbar:
           href: NCAA_Project_ref.html
         - text: "JobSpeak: Decoding Job Descriptions"
           href: https://solutionsbykevin.shinyapps.io/jobspeakapp/
+        - text: "Russian Cyrillic Text Processing"
+          href: https://solutionsbykevin.shinyapps.io/CyrillicTextApp/
+          
     - text: "Python"
       menu:
         - text: "Banking Fraud Study"
