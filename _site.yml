@@ -10,9 +10,9 @@ navbar:
     - text: "R Studio"
       menu:
         - text: "Aircraft Flight Study"
-          #href: Flight_Study_ref.html
+          href: Flight_Study_ref.html
         - text: "NCAA Final Four Project"
-          #href: NCAA_Project_ref.html
+          href: NCAA_Project_ref.html
         - text: "JobSpeak: Decoding Job Descriptions"
           href: https://solutionsbykevin.shinyapps.io/jobspeakapp/
         - text: "Russian Cyrillic Text Processing"

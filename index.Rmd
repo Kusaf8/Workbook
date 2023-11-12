@@ -33,8 +33,6 @@ getting-started img {
 
 <center>![](images/WordCloud.PNG){width="90%"}</center>
 
-<center>[Source Code](WordCloud.html)</center>
-
 <p> </p>
 
 *I created the above word cloud from my performance evaluations that span the past 10 years. This cloud represents a graphical representation of word frequency that give greater prominence to words that appeared more frequently in my evaluations.*
