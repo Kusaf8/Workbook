@@ -6,7 +6,7 @@ shinyUI(fluidPage(
     sidebarPanel(
       textAreaInput("textInput", "Enter Text", "", width = "400px", height = "400px"),
       actionButton("processButton", "Process Text"),
-      downloadButton("downloadData", "Download"),
+      #downloadButton("downloadData", "Download"),
     ),
     mainPanel(
       tabsetPanel(

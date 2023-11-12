@@ -5,7 +5,7 @@ account: solutionsbykevin
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10494689
-bundleId: 7916119
+bundleId: 7918518
 url: https://solutionsbykevin.shinyapps.io/CyrillicTextApp/
 version: 1
 asMultiple: FALSE
